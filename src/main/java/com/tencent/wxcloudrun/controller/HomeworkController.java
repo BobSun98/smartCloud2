@@ -25,7 +25,7 @@ import java.util.Random;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/task")
+@PostMapping("/task")
 public class HomeworkController {
 
     @Autowired
