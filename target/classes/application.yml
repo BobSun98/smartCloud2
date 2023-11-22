@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/taskcollection?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://${MYSQL_ADDRESS}/${MYSQL_DATABASE:springboot_demo}
+#    username: ${MYSQL_USERNAME}
+#    password: ${MySQL_PASSWORD}
+#  mvc:
+#    view:
+#      suffix: .html
+#      prefix: /
+
+mybatis:
+  mapper-locations: mapper/*.xml
+#  type-aliases-package: com.thy.pojo
